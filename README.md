@@ -1,9 +1,13 @@
 Ex.No: 6 HOLT WINTERS METHOD
+
 Date:30-09-2025
+
 AIM:
+
 To implement Holt-Winters model on National stocks exchange Data Set and make future predictions
 
 ALGORITHM:
+
 You import the necessary libraries You load a CSV file containing daily sales data into a DataFrame, parse the 'date' column as datetime, and perform some initial data exploration You group the data by date and resample it to a monthly frequency (beginning of the month You plot the time series data You import the necessary 'statsmodels' libraries for time series analysis You decompose the time series data into its additive components and plot them: You calculate the root mean squared error (RMSE) to evaluate the model's performance You calculate the mean and standard deviation of the entire sales dataset, then fit a Holt- Winters model to the entire dataset and make future predictions You plot the original sales data and the predictions
 
 PROGRAM :
