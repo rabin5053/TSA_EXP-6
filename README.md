@@ -7,6 +7,7 @@ ALGORITHM:
 You import the necessary libraries You load a CSV file containing daily sales data into a DataFrame, parse the 'date' column as datetime, and perform some initial data exploration You group the data by date and resample it to a monthly frequency (beginning of the month You plot the time series data You import the necessary 'statsmodels' libraries for time series analysis You decompose the time series data into its additive components and plot them: You calculate the root mean squared error (RMSE) to evaluate the model's performance You calculate the mean and standard deviation of the entire sales dataset, then fit a Holt- Winters model to the entire dataset and make future predictions You plot the original sales data and the predictions
 
 PROGRAM :
+~~~
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -69,7 +70,7 @@ plt.title('AR Model Predictions vs Test Data (Tomato Dataset)')
 plt.legend()
 plt.grid()
 plt.show()
-
+~~~
 
 OUTPUT:
 <img width="716" height="540" alt="image" src="https://github.com/user-attachments/assets/6b0d6cf5-1fda-4b46-aab2-404b7a28e7b5" />
