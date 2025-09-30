@@ -1,16 +1,16 @@
-Ex.No: 6 HOLT WINTERS METHOD
+##Ex.No: 6 HOLT WINTERS METHOD
 
-Date:30-09-2025
+##Date:30-09-2025
 
-AIM:
+##AIM:
 
 To implement Holt-Winters model on National stocks exchange Data Set and make future predictions
 
-ALGORITHM:
+##ALGORITHM:
 
 You import the necessary libraries You load a CSV file containing daily sales data into a DataFrame, parse the 'date' column as datetime, and perform some initial data exploration You group the data by date and resample it to a monthly frequency (beginning of the month You plot the time series data You import the necessary 'statsmodels' libraries for time series analysis You decompose the time series data into its additive components and plot them: You calculate the root mean squared error (RMSE) to evaluate the model's performance You calculate the mean and standard deviation of the entire sales dataset, then fit a Holt- Winters model to the entire dataset and make future predictions You plot the original sales data and the predictions
 
-PROGRAM :
+##PROGRAM :
 ~~~
 import numpy as np
 import pandas as pd
@@ -76,11 +76,11 @@ plt.grid()
 plt.show()
 ~~~
 
-OUTPUT:
+##OUTPUT:
 <img width="716" height="540" alt="image" src="https://github.com/user-attachments/assets/6b0d6cf5-1fda-4b46-aab2-404b7a28e7b5" />
 <img width="707" height="541" alt="image" src="https://github.com/user-attachments/assets/e523594d-ac9b-45fa-a261-5f682787597a" />
 <img width="1257" height="680" alt="image" src="https://github.com/user-attachments/assets/0c38be8d-8bda-444a-879f-e8f45a7fc6b4" />
 
 
-RESULT:
+##RESULT:
 Thus the program run successfully based on the Holt Winters Method model.
